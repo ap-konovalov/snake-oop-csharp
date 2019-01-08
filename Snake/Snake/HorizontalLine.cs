@@ -3,9 +3,12 @@ using System.Collections.Generic;
 
 namespace Snake
 {
-    class HorizontalLine
+    // У насть есть класс Figure в которым мы описываем общие действия для всех
+    // фигур HorizontalLine мы решили отенсти к фигурам, это делается так class HorizontalLine : Figure.
+    // HorizontalLine теперь стал наследником класса Figure, унаследовав все его свойства
+
+    class HorizontalLine : Figure
     {
-        List<Point> pList;
 
         public HorizontalLine(int xLeft, int xRight, int y, char sym)
         {
@@ -18,12 +21,5 @@ namespace Snake
  
         }
 
-        public void Drow()
-        {
-            foreach(Point p in pList)
-            {
-                p.Draw();
-            }
-        }
     }
 }

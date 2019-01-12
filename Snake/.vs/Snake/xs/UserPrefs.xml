@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{AA63155E-1A0F-481B-A637-C0F09EA54602}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Snake/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Snake/FoodCreator.cs">
     <Files>
-      <File FileName="Snake/Program.cs" Line="24" Column="31" />
-      <File FileName="Snake/Point.cs" Line="57" Column="20" />
-      <File FileName="Snake/HorizontalLine.cs" Line="7" Column="120" />
+      <File FileName="Snake/Program.cs" Line="26" Column="25" />
+      <File FileName="Snake/Point.cs" Line="50" Column="1" />
+      <File FileName="Snake/HorizontalLine.cs" Line="10" Column="25" />
       <File FileName="Snake/VerticalLine.cs" Line="18" Column="10" />
       <File FileName="Snake/Figure.cs" Line="10" Column="27" />
-      <File FileName="Snake/Snake.cs" Line="40" Column="30" />
+      <File FileName="Snake/Snake.cs" Line="9" Column="8" />
       <File FileName="Snake/Direction.cs" Line="9" Column="13" />
+      <File FileName="Snake/FoodCreator.cs" Line="4" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Snake PreferredExecutionTarget="MonoDevelop.Default" />
